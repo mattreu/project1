@@ -26,7 +26,7 @@ class Mood extends React.Component {
     constructor(props) {
       super(props);
       this.state = { mood: 'good', color:'green' };
-      this.toggleMood = this.toggleMood.bind(this); // niezbedne gdy event (tu onClick) uzywa "this"
+      this.toggleMood = this.toggleMood.bind(this); 
     }
   
     toggleMood() {
